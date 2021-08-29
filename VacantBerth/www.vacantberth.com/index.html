@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page </title>
+    <!-- <link rel="stylesheet" href="/Content//lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/Content//css/site.css" asp-append-version="true" /> -->
+    <link rel="stylesheet" href="/VacantBerth/www.vacantberth.com/Content/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/VacantBerth/www.vacantberth.com/Content//css/site.css" asp-append-version="true" />
+
+
+
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/Content/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="/Content/style.css" type="text/css" />
+    <link rel="stylesheet" href="/Content/css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="/Content/css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="/Content/css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="/Content/css/magnific-popup.css" type="text/css" />
+    <link href="/Content/css/components/pricing-table.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/Content/css/custom.css" type="text/css" />
+
+    <link href="/Content/css/components/radio-checkbox.css" rel="stylesheet" /> -->
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/VacantBerth/www.vacantberth.com/Content/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="/VacantBerth/www.vacantberth.com/Content/style.css" type="text/css" />
+    <link rel="stylesheet" href="/VacantBerth/www.vacantberth.com/Content/css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="/VacantBerth/www.vacantberth.com/Content/css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="/VacantBerth/www.vacantberth.com/Content/css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="/VacantBerth/www.vacantberth.com/Content/css/magnific-popup.css" type="text/css" />
+    <link href="/VacantBerth/www.vacantberth.com/Content/css/components/pricing-table.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/VacantBerth/www.vacantberth.com/Content/css/custom.css" type="text/css" />
+
+    <link href="/VacantBerth/www.vacantberth.com/Content/css/components/radio-checkbox.css" rel="stylesheet" />
+
+
+    <!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
+    <!-- <link rel="stylesheet" type="text/css" href="/Content/include/rs-plugin/css/settings.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/Content/include/rs-plugin/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="/Content/include/rs-plugin/css/navigation.css">
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+
+    <link rel="stylesheet" type="text/css" href="/VacantBerth/www.vacantberth.com/Content/include/rs-plugin/css/settings.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/VacantBerth/www.vacantberth.com/Content/include/rs-plugin/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="/VacantBerth/www.vacantberth.com/Content/include/rs-plugin/css/navigation.css">
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+
+
+
+    <style>
+        .float {
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            bottom: 20px;
+            left: 20px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .my-float {
+            margin-top: 16px;
+        }
+
+        #meet {
+            display: flex;
+            margin: 0 auto;
+        }
+
+        .revo-slider-emphasis-text {
+            font-size: 58px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            font-family: 'Poppins', sans-serif;
+            padding: 15px 20px;
+            border-top: 2px solid #FFF;
+            border-bottom: 2px solid #FFF;
+        }
+
+        .revo-slider-desc-text {
+            font-size: 20px;
+            font-family: 'Lato', sans-serif;
+            width: 650px;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        .revo-slider-caps-text {
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 3px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .tp-video-play-button {
+            display: none !important;
+        }
+
+        .tp-caption {
+            white-space: nowrap;
+        }
+    </style>
+
+
+    <style>
+        .revo-slider-emphasis-text {
+            font-size: 64px;
+            font-weight: 700;
+            letter-spacing: -1px;
+            font-family: 'Poppins', sans-serif;
+            padding: 15px 20px;
+            border-top: 2px solid #FFF;
+            border-bottom: 2px solid #FFF;
+        }
+
+        .revo-slider-desc-text {
+            font-size: 20px;
+            font-family: 'Lato', sans-serif;
+            width: 650px;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        .revo-slider-caps-text {
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 3px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .tp-video-play-button {
+            display: none !important;
+        }
+
+        .tp-caption {
+            white-space: nowrap;
+        }
+    </style>
+
+
+    <style>
+        .search {
+            width: 100%;
+            position: relative;
+            display: flex;
+        }
+
+        .searchTerm {
+            width: 100%;
+            border: 3px solid #00B4CC;
+            border-right: none;
+            padding: 5px;
+            height: 20px;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+            color: #9DBFAF;
+        }
+
+        .searchTerm:focus {
+            color: #00B4CC;
+        }
+
+        .searchButton {
+            width: 40px;
+            height: 36px;
+            border: 1px solid #00B4CC;
+            background: #00B4CC;
+            text-align: center;
+            color: #fff;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        /*Resize the wrap to see the search bar change!*/
+
+        .wrap {
+            width: 30%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+
+
+
+    <script>
+        function deleteAllCookies() {
+            var cookies = $.cookie();
+            for (var cookie in cookies) {
+                $.removeCookie(cookie);
+            }
+        }
+    </script>
+
+</head>
+
+<body class="stretched" onunload="deleteAllCookies()">
+
+    <!-- Top Bar
+          ============================================= -->
+    <div id="top-bar" class="bg-color dark">
+        <div class="container">
+
+            <div class="row justify-content-between">
+
+
+                <div class="col-12 col-md-auto">
+                    <!-- Top Links
+                    ============================================= -->
+                    <div class="top-links on-click">
+                        <ul id="top-social">
+                            <li><a href="https://www.facebook.com/Vacant-Berth-101605848248246/" target="_blank" class="si-facebook"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
+                            <li><a href="https://twitter.com/VacantBerth" target="_blank" class="si-twitter"><span class="ts-icon"><i class="icon-twitter"></i></span><span class="ts-text">Twitter</span></a></li>
+                            <li><a href="https://www.instagram.com/invites/contact/?i=ahu9bj73l2fc&utm_content=fbuvs2e" class="si-instagram"><span class="ts-icon"><i class="icon-instagram2"></i></span><span class="ts-text">Instagram</span></a></li>
+                            <li><a href="https://www.linkedin.com/company/vacant-berth" class="si-linkedin"><span class="ts-icon"><i class="icon-linkedin2"></i></span><span class="ts-text">LinkedIn</span></a></li>
+
+                            <li><a href="mailto:info@vacantberth.com" class="si-email3"><span class="ts-icon"><i class="icon-envelope-alt"></i></span><span class="ts-text">info@vacantberth.com</span></a></li>
+                        </ul>
+                        <!-- #top-social end -->
+
+                    </div>
+                    <!-- .top-links end -->
+
+                </div>
+
+                <!--<div class="col-12 col-md-auto">
+                    <div class="input-group mb-0 bg-white">
+                        <input type="text" id="myInput" class="form-control bg-white py-0" placeholder="Search Here...">
+                    </div>-->
+
+                <!--</div>-->
+
+                <div class="col-12 col-md-auto">
+                    <ul id="top-social">
+                        <li class="top-links-item pointer" data-toggle="modal" data-target="#appointModal">
+                            <a>Appointment</a>
+                        </li>
+                        <li class="top-links-item">
+                            <a href="/Home/Resume">Make Resume &nbsp; <i class="icon-line-arrow-right"></i></a>
+                        </li>
+
+                        <li class="top-links-item m-auto">
+                            <a class="" href="/Login/LoginDetail">Login</a>
+                        </li>
+                        <li class="top-links-item m-auto">
+                            <a class="" href="/Login/RegisterDetail">Register</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- #top-bar end -->
+    <!-- Header
+    ============================================= -->
+    <header id="header" class="header-size-custom">
+        <div id="header-wrap">
+            <div class="container">
+                <div class="header-row">
+
+                    <!-- Logo
+                    ============================================= -->
+                    <div id="logo">
+                        <!-- <a href="/" class="standard-logo"><img src="/Content/images/Logo_1.png"></a>
+
+                        <a href="/" class="retina-logo" data-dark-logo="/Content/images/Logo_1.png"><img src="/Content/images/Logo_1.png" alt="eSkillz"></a> -->
+                        <a href="/" class="standard-logo"><img src="/VacantBerth/www.vacantberth.com/Content/images/Logo_1.png"></a>
+
+                        <a href="/" class="retina-logo" data-dark-logo="/Content/images/Logo_1.png"><img src="/VacantBerth/www.vacantberth.com/Content/images/Logo_1.png" alt="eSkillz"></a>
+                    </div>
+                    <!-- #logo end -->
+
+                    <div id="primary-menu-trigger">
+                        <svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+                    </div>
+
+
+                    <nav class="primary-menu">
+
+                        <ul class="menu-container">
+                            <li class="menu-item">
+                                <a class="menu-link" asp-action="Index" onclick="location.href='/Home/Menu?item=Home'">
+                                    <div class="item-div">Home</div>
+                                </a>
+
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" asp-action="Index" onclick="location.href='/Home/Menu?item=About'">
+                                    <div class="item-div">About</div>
+                                </a>
+
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" asp-action="Index" onclick="location.href='/Home/Menu?item=Candidate%27s%20Choice'">
+                                    <div class="item-div">Candidate&#39;s Choice</div>
+                                </a>
+                                <ul class="sub-menu-container">
+                                    <li class="menu-item">
+                                        <a class="menu-link" id="conferncId" onclick="testFunc()">
+                                            <div class="sub-item-div">Start Video Chat</div>
+                                        </a>
+
+
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" onclick="location.href='/Home/SubMenu?item=Send%20Emails'">
+                                            <div class="sub-item-div">Send Emails</div>
+                                        </a>
+
+
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" onclick="location.href='/Home/SubMenu?item=About%20Short%20Video'">
+                                            <div class="sub-item-div">About Short Video</div>
+                                        </a>
+
+
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" onclick="location.href='/Home/SubMenu?item=Apply%20For%20Job'">
+                                            <div class="sub-item-div">Apply For Job</div>
+                                        </a>
+
+
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" onclick="location.href='/Home/SubMenu?item=Admission%20Enquiry'">
+                                            <div class="sub-item-div">Admission Enquiry</div>
+                                        </a>
+
+
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" asp-action="Index" onclick="location.href='/Home/Menu?item=Company%2FUniversity%20Choice'">
+                                    <div class="item-div">Company/University Choice</div>
+                                </a>
+                                <ul class="sub-menu-container">
+                                    <li class="menu-item">
+                                        <a class="menu-link" onclick="location.href='/Home/SubMenu?item=About%20University'">
+                                            <div class="sub-item-div">About University</div>
+                                        </a>
+
+
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" onclick="location.href='/Home/SubMenu?item=Company%20Overview'">
+                                            <div class="sub-item-div">Company Overview</div>
+                                        </a>
+
+
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" onclick="location.href='/Home/SubMenu?item=Make%20Offer%20Letter'">
+                                            <div class="sub-item-div">Make Offer Letter</div>
+                                        </a>
+
+
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" onclick="location.href='/Home/SubMenu?item=Candidate%20Interview'">
+                                            <div class="sub-item-div">Candidate Interview</div>
+                                        </a>
+
+
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" onclick="location.href='/Home/SubMenu?item=Create%20Post%20For%20Jobs'">
+                                            <div class="sub-item-div">Create Post For Jobs</div>
+                                        </a>
+
+
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" onclick="location.href='/Home/SubMenu?item=Admission%20Inquiry%20List'">
+                                            <div class="sub-item-div">Admission Inquiry List</div>
+                                        </a>
+
+
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" asp-action="Index" onclick="location.href='/Home/Menu?item=Blogs'">
+                                    <div class="item-div">Blogs</div>
+                                </a>
+
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" asp-action="Index" onclick="location.href='/Home/Menu?item=Contact%20Us'">
+                                    <div class="item-div">Contact Us</div>
+                                </a>
+
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" asp-action="Index" onclick="location.href='/Home/Menu?item=Revision%20Option'">
+                                    <div class="item-div">Revision Option</div>
+                                </a>
+                                <ul class="sub-menu-container">
+                                    <li class="menu-item">
+                                        <a class="menu-link" onclick="location.href='/Home/SubMenu?item=Write%20Mail%20%3F'">
+                                            <div class="sub-item-div">Write Mail ?</div>
+                                        </a>
+
+
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" onclick="location.href='/Home/SubMenu?item=Write%20Job%20Letter%20%3F'">
+                                            <div class="sub-item-div">Write Job Letter ?</div>
+                                        </a>
+
+
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" onclick="location.href='/Home/SubMenu?item=Keep%20Notes'">
+                                            <div class="sub-item-div">Keep Notes</div>
+                                        </a>
+
+
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" onclick="location.href='/Home/SubMenu?item=Assessment%20Test'">
+                                            <div class="sub-item-div">Assessment Test</div>
+                                        </a>
+
+
+                                    </li>
+                                </ul>
+
+                            </li>
+                        </ul>
+
+                    </nav>
+                    <!-- #primary-menu end -->
+
+
+                </div>
+            </div>
+        </div>
+        <div class="header-wrap-clone"></div>
+    </header>
+    <!-- #header end -->
+    <!-- Go To Top
+     ============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <div class="parent-container">
+        <main role="main" id="renderDiv" class="pb-2">
+
+
+
+
+
+
+            <section id="slider" class="slider-element slider-parallax revslider-wrap min-vh-0">
+                <div class="slider-inner">
+                    <!--
+        #################################
+            - THEMEPUNCH BANNER -
+        #################################
+        -->
+                    <div id="rev_slider_k_fullwidth_wrapper" class="rev_slider_wrapper fullwidth-container" style="padding:0px;">
+                        <!-- START REVOLUTION SLIDER 5.1.4 fullwidth mode -->
+                        <div id="rev_slider_k_fullwidth" class="rev_slider fullwidthbanner" style="display:none; height:450px !important" data-version="5.1.4">
+                            <ul>
+                                <!-- SLIDE  -->
+                                <li class="dark" data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="~/VacantBerth/www.vacantberth.com/Content/images/slider/rev/ken-2-thumb.jpg" data-delay="9800" data-saveperformance="off" data-title="Unlimited Possibilities">
+                                    <!-- MAIN IMAGE -->
+                                    <img src="/VacantBerth/www.vacantberth.com/Content/images/slider/rev/ken-2.jpg" alt="kenburns6" data-bgposition="center bottom" data-bgpositionend="center top" data-kenburns="on" data-duration="11000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="140" data-rotatestart="0"
+                                        data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
+                                    <!-- LAYERS -->
+                                    <!-- LAYER NR. 2 -->
+
+                                    <div class="tp-caption ltl tp-resizeme revo-slider-emphasis-text p-0 border-0 text-center" data-x="middle" data-hoffset="0" data-y="top" data-voffset="185" data-fontsize="['60','50','50','40']" data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+                                        data-speed="800" data-start="1200" data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1000" data-endeasing="Power4.easeIn" style="z-index: 3; color: white; white-space: nowrap;">THIS IS JUST THE BEGINNING <br /> Start Scout...</div>
+
+
+                                    <div class="tp-caption ltl tp-resizeme" data-x="middle" data-hoffset="0" data-y="top" data-voffset="405" data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;" data-speed="800" data-start="1550" data-easing="easeOutQuad"
+                                        data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1000" data-endeasing="Power4.easeIn" style="z-index: 3;">
+                                        <a href="/Login/LoginDetail" class="button button-border button-large button-rounded text-right m-0 bg-color">
+                                <span class="text-white">LOGIN</span><i class="icon-angle-right text-white"></i>
+                            </a>
+                                    </div>
+
+                                </li>
+
+
+                                <li class="dark" data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="~/VacantBerth/www.vacantberth.com/Content/images/slider/rev/ken-1-thumb.jpg" data-delay="9800" data-saveperformance="off" data-title="Unlimited Possibilities">
+                                    <!-- MAIN IMAGE -->
+                                    <img src="/VacantBerth/www.vacantberth.com/Content/images/slider/rev/ken-1.jpg" alt="kenburns6" data-bgposition="center bottom" data-bgpositionend="center top" data-kenburns="on" data-duration="11000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="140" data-rotatestart="0"
+                                        data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
+                                    <!-- LAYERS -->
+                                    <!-- LAYER NR. 2 -->
+                                    <div class="tp-caption ltl tp-resizeme revo-slider-emphasis-text p-0 border-0 text-center" data-x="middle" data-hoffset="0" data-y="top" data-voffset="185" data-fontsize="['60','50','50','40']" data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+                                        data-speed="800" data-start="1200" data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1000" data-endeasing="Power4.easeIn" style="z-index: 3; color: white; white-space: nowrap;">THIS IS JUST THE BEGINNING <br /> Start Scout...</div>
+
+
+                                    <div class="tp-caption ltl tp-resizeme" data-x="middle" data-hoffset="0" data-y="top" data-voffset="405" data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;" data-speed="800" data-start="1550" data-easing="easeOutQuad"
+                                        data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1000" data-endeasing="Power4.easeIn" style="z-index: 3;">
+                                        <a href="/Login/LoginDetail" class="button button-border button-large button-rounded text-right m-0 bg-color">
+                                <span  class="text-white">LOGIN</span><i class="icon-angle-right  text-white"></i>
+                            </a>
+                                    </div>
+
+
+                                </li>
+                                <li class="dark" data-transition="zoomout" data-slotamount="1" data-masterspeed="1500" data-thumb="~/VacantBerth/www.vacantberth.com/Content/images/slider/rev/bg2-thumb.jpg" data-saveperformance="off" data-title="Fixed-Size Video">
+                                    <!-- MAIN IMAGE -->
+                                    <img src="/VacantBerth/www.vacantberth.com/Content/images/slider/rev/bg2.jpg" alt="kenburns6" data-bgposition="left bottom" data-bgpositionend="right top" data-kenburns="on" data-duration="11000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0"
+                                        data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
+                                    <!-- LAYERS -->
+
+                                    <div class="tp-caption ltl tp-resizeme revo-slider-emphasis-text p-0 border-0 text-center" data-x="middle" data-hoffset="0" data-y="top" data-voffset="185" data-fontsize="['60','50','50','40']" data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+                                        data-speed="800" data-start="1200" data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1000" data-endeasing="Power4.easeIn" style="z-index: 3; color: white; white-space: nowrap;">THIS IS JUST THE BEGINNING <br /> Start Scout...</div>
+
+
+                                    <div class="tp-caption ltl tp-resizeme" data-x="middle" data-hoffset="0" data-y="top" data-voffset="405" data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;" data-speed="800" data-start="1550" data-easing="easeOutQuad"
+                                        data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1000" data-endeasing="Power4.easeIn" style="z-index: 3;">
+                                        <a href="/Login/LoginDetail" class="button button-border button-large button-rounded text-right m-0 bg-color">
+                                <span  class="text-white">LOGIN</span><i class="icon-angle-right  text-white"></i>
+                            </a>
+                                    </div>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- END REVOLUTION SLIDER -->
+                </div>
+            </section>
+
+
+            <!--Slider end-->
+
+            <section id="content">
+
+                <div class="content-wrap pt-0 bg-light">
+                    <!--Content Wrap Start-->
+                    <!-- Client Carousel
+            ============================================= -->
+                    <div class="section m-0 border-bottom py-5">
+                        <div class="container">
+                            <div id="oc-clients" class="owl-carousel image-carousel carousel-widget" data-margin="100" data-loop="true" data-autoplay="5000" data-nav="false" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6">
+                                <!-- <div class="oc-item"><a href="#"><img src="/Content/images/clients/perkminds.png" alt="Brands"></a></div>
+                                <div class="oc-item"><a href="#"><img src="/Content/images/clients/zectagon.jpg" alt="Brands"></a></div>
+
+                                <div class="oc-item"><a href="#"><img src="/Content/images/clients/perkminds.png" alt="Brands"></a></div>
+                                <div class="oc-item"><a href="#"><img src="/Content/images/clients/zectagon.jpg" alt="Brands"></a></div> -->
+
+                                <div class="oc-item"><a href="#"><img src="/VacantBerth/www.vacantberth.com/Content/images/clients/perkminds.png" alt="Brands"></a></div>
+                                <div class="oc-item"><a href="#"><img src="/VacantBerth/www.vacantberth.com/Content/images/clients/zectagon.jpg" alt="Brands"></a></div>
+
+                                <div class="oc-item"><a href="#"><img src="/VacantBerth/www.vacantberth.com/Content/images/clients/perkminds.png" alt="Brands"></a></div>
+                                <div class="oc-item"><a href="#"><img src="/VacantBerth/www.vacantberth.com/Content/images/clients/zectagon.jpg" alt="Brands"></a></div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <section class="section pricing-section bg-color m-0 dark" style="        background: linear-gradient(45deg, #6D954F, #6D954F);" hidden>
+                        <div class="clearfix">
+                            <h2 class="pricing-section--title center">APPLY FOR JOB</h2>
+                            <div class="pricing pricing--norbu">
+                                <div class="pricing--item">
+                                    <h3 class="pricing--title">Full Time</h3>
+                                    <ul class="pricing--feature-list">
+                                        <li class="pricing--feature">Free water saving e-book</li>
+                                        <li class="pricing--feature">Free access to forums</li>
+                                        <li class="pricing--feature">Beginners tips</li>
+                                    </ul>
+                                    <button class="pricing--action" onclick="location.href = '/Home/Job'">SELECT</button>
+                                </div>
+                                <div class="pricing--item pricing--item--featured">
+                                    <h3 class="pricing--title">Part Time</h3>
+                                    <ul class="pricing--feature-list">
+                                        <li class="pricing--feature">Free water saving e-book</li>
+                                        <li class="pricing--feature">Free access to forums</li>
+                                        <li class="pricing--feature">Advanced saving tips</li>
+                                    </ul>
+                                    <button class="pricing--action" onclick="location.href = '/Home/Job'">SELECT</button>
+                                </div>
+                                <div class="pricing--item">
+                                    <h3 class="pricing--title">Remote Work</h3>
+                                    <ul class="pricing--feature-list">
+                                        <li class="pricing--feature">Access to all books</li>
+                                        <li class="pricing--feature">Unlimited board topics</li>
+                                        <li class="pricing--feature">Beginners tips</li>
+                                    </ul>
+                                    <button class="pricing--action" onclick="location.href = '/Home/Job'">SELECT</button>
+                                </div>
+                                <div class="pricing--item">
+                                    <h3 class="pricing--title">Contract Based</h3>
+                                    <ul class="pricing--feature-list">
+                                        <li class="pricing--feature">Access to all books</li>
+                                        <li class="pricing--feature">Unlimited board topics</li>
+                                        <li class="pricing--feature">Beginners tips</li>
+                                    </ul>
+                                    <button class="pricing--action" onclick="location.href = '/Home/Job'">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+
+                    <div class="heading-block border-bottom-0 center mx-auto mb-0" style="max-width: 550px">
+                        <div class="badge badge-pill badge-default gradient-text">WELCOME TO VACANT BERTH</div>
+                        <h2 class="nott ls0 mb-3">New Era Social Management Platform to Fill your Empty Space</h2>
+
+                    </div>
+
+
+
+                    <div class="section bg-transparent my-5 p-0">
+                        <div class="container bg-white clearfix">
+
+
+                            <div class="row">
+                                <!-- Photographs
+                        ============================================= -->
+                                <div class="col-lg-7 rounded img-hover-wrap">
+                                    <div class="img-hover-card p-2">
+                                        <!-- <a href="/Content/images/home/home1.jpg" data-lightbox="image"><img src="/Content/images/home/home1.jpg" alt="Image"></a> -->
+                                        <a href="/VacantBerth/www.vacantberth.com/Content/images/home/home1.jpg" data-lightbox="image"><img src="/VacantBerth/www.vacantberth.com/Content/images/home/home1.jpg" alt="Image"></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 topmargin-sm">
+                                    <div class="heading-block border-bottom-0">
+                                        <h2>Market Leader since - 2019.</h2>
+
+                                    </div>
+
+                                    <ul class="iconlist iconlist-large iconlist-color">
+                                        <li><i class="icon-ok"></i> Positive results within deadlines</li>
+                                        <li><i class="icon-ok"></i> Loyalty, Transparency & Fairness</li>
+                                        <li>
+                                            <i class="icon-ok"></i> Dedicated Professional Team & willing to keep long term relationships with its consumers
+                                        </li>
+                                        <li> <i class="icon-ok"></i> Willing to Work Globally</li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section m-0">
+                        <div class="row mx-5 shadow-lg rounded bg-white">
+                            <div class="col-md-6">
+
+                                <div class="row align-items-stretch h-100">
+                                    <div class="col-md-12 img-hover-wrap text-center">
+                                        <div class="img-hover-card">
+                                            <!-- <a data-lightbox="image"><img src="/Content/images/home/home2.jpg" alt="Image" style="max-height:300px"></a> -->
+                                            <a data-lightbox="image"><img src="/VacantBerth/www.vacantberth.com/Content/images/home/home2.jpg" alt="Image" style="max-height:300px"></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 pb-md-0 text-center px-3 pt-2" style="background-color:antiquewhite">
+                                        <div class="w-75 m-auto">
+                                            <div class="feature-box fbox-center fbox-effect ">
+                                                <div class="fbox-icon">
+                                                    <i class="icon-line2-book-open i-alt"></i>
+                                                </div>
+                                            </div>
+
+                                            <h3>
+                                                Educational Resources for Job Seekers
+                                            </h3>
+                                            <div class="pts-switch-content-left">
+                                                <a href="#" class="button button-large button-rounded btn-block text-capitalize m-0 ls0">GUID & E-BOOKS</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6 p-4 min-vh-50 my-auto">
+                                <div class="content-box">
+                                    <div class="sec-title">
+
+                                        <h1>Collaboration : Reliable & Cost Control Engagement</h1>
+                                    </div>
+                                    <div class="text">
+                                        <p>
+                                            For the first time Candidate, Company & University can meet on VBEMC platform i.e., Vacant Berth Ed. Management company.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section m-0">
+                        <div class="container">
+
+                            <div class="row no-gutters align-items-center p-4 bg-white rounded overflow-hidden flex-md-row shadow-sm position-relative mx-auto" style="max-width: 1000px">
+                                <div class="col p-4 d-flex flex-column center">
+                                    <p class="text-black-50 gradient-text">Solutions We Provide</p>
+                                    <h2 class="mb-0">Explore + Learn + Innovate + Execute = Vacant Berth </h2>
+
+                                </div>
+
+                                <div class="col-auto">
+                                    <img src="/VacantBerth/www.vacantberth.com/Content/images/home/home4.jpg" alt="" width="400">
+                                </div>
+                            </div>
+                            <div class="position-relative">
+                                <div class="container">
+                                    <div class="row pricing my-4">
+                                        <div class="col-md-4">
+                                            <div class="pricing-box text-center gradient-bg m-auto">
+                                                <div class="pricing-title title-sm">
+                                                    <!-- <img src="/Content/images/employee/temporary.jpg" alt="" width="200" height="150"> -->
+                                                    <img src="/VacantBerth/www.vacantberth.com/Content/images/employee/temporary.jpg" alt="" width="200" height="150">
+                                                </div>
+                                                <div class="bg-white pt-2">
+                                                    <a href="#" class="card m-auto" style="background-color: whitesmoke; width:300px">
+                                                        <div class="card-body">
+                                                            <h4 class="m-0">Part Time/Remote/Internship</h4>
+                                                        </div>
+                                                    </a>
+                                                    <div class="pricing-action px-5">
+                                                        <a href="/Login/LoginDetail" class="button button-large button-gradient btn-block m-0">More Detail</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="pricing-box text-center gradient-bg m-auto">
+                                                <div class="pricing-title title-sm">
+                                                    <!-- <img src="/Content/images/employee/directHire.jpg" alt="" width="200" height="150"> -->
+                                                    <img src="/VacantBerth/www.vacantberth.com/Content/images/employee/directHire.jpg" alt="" width="200" height="150">
+                                                </div>
+                                                <div class="bg-white pt-2">
+                                                    <a href="#" class="card m-auto" style="background-color: whitesmoke; width:300px">
+                                                        <div class="card-body">
+                                                            <h4 class="m-0">Full Time</h4>
+                                                        </div>
+                                                    </a>
+                                                    <div class="pricing-action px-5">
+                                                        <a href="/Login/LoginDetail" class="button button-large button-gradient btn-block m-0">More Detail</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="pricing-box text-center gradient-bg m-auto">
+                                                <div class="pricing-title title-sm">
+                                                    <!-- <img src="/Content/images/employee/contract.jpg" alt="" width="200" height="150"> -->
+                                                    <img src="/VacantBerth/www.vacantberth.com/Content/images/employee/contract.jpg" alt="" width="200" height="150">
+                                                </div>
+                                                <div class="bg-white pt-2">
+                                                    <a href="#" class="card m-auto" style="background-color: whitesmoke; width:300px">
+                                                        <div class="card-body">
+                                                            <h4 class="m-0">Contract Based</h4>
+                                                        </div>
+                                                    </a>
+                                                    <div class="pricing-action px-5">
+                                                        <a href="/Login/LoginDetail" class="button button-large button-gradient btn-block m-0">More Detail</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="section topmargin-sm footer-stick bg-white">
+
+                        <h4 class="text-uppercase center">What <span>Clients</span> Say?</h4>
+
+                        <div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="false">
+                            <div class="flexslider">
+                                <div class="slider-wrap">
+                                    <div class="slide">
+                                        <div class="testi-image">
+                                            <a href="#" style="width:200px; max-height:100px">
+                                        <!-- <img src="/Content/images/clients/perkminds.png" class="rounded-0" alt="Customer Testimonails" style="width:100% !important; height:auto !important"> -->
+                                        <img src="/VacantBerth/www.vacantberth.com/Content/images/clients/perkminds.png" class="rounded-0" alt="Customer Testimonails" style="width:100% !important; height:auto !important">
+                                    </a>
+                                        </div>
+                                        <div class="testi-content">
+                                            <p>
+                                                Received genuine, verified & qualified Tech Candidates". Thank you for your reliable assistance.
+                                            </p>
+                                            <div class="testi-meta">
+                                                Perk Minds Pvt. Ltd. Delhi
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="slide">
+                                        <div class="testi-image">
+                                            <a href="#" style="width:200px; height:100px">
+                                        <!-- <img src="/Content/images/clients/zectagon.jpg" class="rounded-0" alt="Customer Testimonails" style="width:100% !important; height:auto !important"> -->
+                                        <img src="/VacantBerth/www.vacantberth.com/Content/images/clients/zectagon.jpg" class="rounded-0" alt="Customer Testimonails" style="width:100% !important; height:auto !important">
+                                    </a>
+                                        </div>
+                                        <div class="testi-content">
+                                            <p>We have received reliable & qualified tech candidates from Vacant Berth, we're happy with their services, they fulfilled their commitment.</p>
+                                            <div class="testi-meta">
+                                                Zectagon Technologies, Jaipur
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!--Content wrap end-->
+
+
+
+                <!--<div class="modal fade" id="confModal" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">-->
+                <!-- <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div> -->
+                <!--<div id="meet" class="modal-body">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button onclick="onClose()" type="button" class="btn btn-secondary" data-dismiss="modal">End Meeting</button>-->
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                <!--</div>
+                </div>
+            </div>
+        </div>-->
+
+
+            </section>
+
+
+
+
+
+        </main>
+    </div>
+
+
+
+    <!-- Footer
+         ============================================= -->
+    <footer id="footer" class="bg-white">
+        <div class="container">
+            <!-- Footer Widgets
+            ============================================= -->
+            <div class="footer-widgets-wrap">
+
+                <div class="row col-mb-50">
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="widget clearfix">
+
+                            <img src="/VacantBerth/www.vacantberth.com/Content/images/Logo_1.png" alt="Image" class="footer-logo">
+                            <div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+                                <address>
+                                    <strong>Headquarter:</strong><br>
+                                    <strong>Vacant Berth Ed. Management Company</strong><br>
+                                    111/A1, Solanki Chowk, <br />
+                                    Sadh Nagar, Palam, <br />
+                                    New Delhi (INDIA).
+                                </address>
+                                <abbr title="Email Address"><strong>Email: </strong></abbr> info@vacantberth.com <br />
+                                <abbr title="Email Address"><strong>Timing: </strong></abbr> 10AM To 5PM <br />
+                                <abbr title="Email Address"><strong>Working Days: </strong></abbr> Monday To Friday <br />
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="widget clearfix">
+                            <div class="col-6 col-lg-3 widget_links">
+                                <ul>
+                                    <li class="d-flex"><a href="#">Home</a></li>
+                                    <li class="d-flex"><a href="#">About</a></li>
+                                    <li class="d-flex"><a href="#">FAQs</a></li>
+                                    <li class="d-flex"><a href="#">Support</a></li>
+                                    <li class="d-flex"><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="widget clearfix">
+
+                            <a href="https://www.facebook.com/Vacant-Berth-101605848248246/" class="social-icon si-small si-rounded si-facebook">
+                                <i class="icon-facebook"></i>
+                                <i class="icon-facebook"></i>
+                            </a>
+
+                            <a href="https://twitter.com/VacantBerth" class="social-icon si-small si-rounded si-twitter">
+                                <i class="icon-twitter"></i>
+                                <i class="icon-twitter"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/invites/contact/?i=ahu9bj73l2fc&utm_content=fbuvs2e" class="social-icon si-small si-rounded si-instagram">
+                                <i class="icon-instagram"></i>
+                                <i class="icon-instagram"></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/company/vacant-berth" class="social-icon si-small si-rounded si-linkedin">
+                                <i class="icon-linkedin"></i>
+                                <i class="icon-linkedin"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="widget quick-contact-widget form-widget clearfix">
+                            <h4>Send Message</h4>
+                            <div class="form-result"></div>
+                            <form action="/Home/EnquiryMail" class="quick-contact-form mb-0" method="post"><input name="__RequestVerificationToken" type="hidden" value="d8CtD-uUdyt_ptDrRtVr5mc7FadTHvVUoBMMitTYP0yW3iq_ShTY015AoSjYT81_gVdaCFMptxv6v87iahuu5Ivr06Zsi64pWNdlRXPn-6U1" />
+                                <div class="input-group mx-auto">
+
+                                    <input class="sm-form-control border-form-control" data-val="true" data-val-required="Name is Required" id="mailMsgName" name="enquiry.name" placeholder="Full Name" type="text" value="" />
+                                    <span class="field-validation-valid text-danger" data-valmsg-for="enquiry.name" data-valmsg-replace="true"></span>
+
+                                </div>
+                                <div class="input-group mx-auto">
+
+                                    <input class="sm-form-control border-form-control" data-val="true" data-val-required="Email Address is Required" id="msgMail" name="enquiry.emailid" placeholder="Email Address" type="text" value="" />
+                                    <span class="field-validation-valid text-danger" data-valmsg-for="enquiry.emailid" data-valmsg-replace="true"></span>
+
+                                </div>
+                                <textarea class="form-control input-block-level short-textarea mb-3" cols="30" data-val="true" data-val-required="Message is Required" id="mailMsgId" name="enquiry.message" placeholder="Message" row="4" rows="2">
+</textarea><input data-val="true" data-val-required="This Field is Required" id="enquiry_enquiry_for_title" name="enquiry.enquiry_for_title" type="hidden" value="Message" /> <button type="submit" class="btn btn-danger m-0"
+                                    value="submit">Send Email</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- .footer-widgets-wrap end -->
+        </div>
+
+        <!-- Copyrights
+        ============================================= -->
+        <div id="copyrights" hidden>
+            <div class="container">
+
+                <div class="row justify-content-between">
+                    <div class="col-12 col-lg-auto text-center text-lg-left">
+                        <p class="mb-3">Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.</p>
+                    </div>
+
+                    <div class="col-12 col-lg-auto text-center text-lg-right">
+                        <div class="copyrights-menu copyright-links mb-0">
+                            <a href="#">Home</a>/<a href="#">About</a>/<a href="#">Features</a>/<a href="#">Portfolio</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- #copyrights end -->
+    </footer>
+    <!-- #footer end -->
+    <!-- Button trigger modal -->
+    <!-- Button trigger modal -->
+    <!-- Meet Modal -->
+    <div class="modal fade" id="confCall" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <!-- <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div> -->
+                <div id="meet" class="modal-body">
+
+                </div>
+                <div class="modal-footer">
+                    <button onclick="onClose()" type="button" class="btn btn-secondary" data-dismiss="modal">End Meeting</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-primary" id="abcBtn" data-toggle="modal" data-target="#abcdModel" hidden>
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="abcdModel" tabindex="-1" role="dialog" data-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-theme text-center">
+                    <h3 class="modal-title text-center m-auto">Access Permission Info !</h3>
+                </div>
+                <div class="modal-body text-center">
+                    <p class="">CAN'T GET A TOUR OF VACANT BERTH WITHOUT LOGIN</p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <a href="/" class="btn btn-danger">Close</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="appointModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-theme">
+                    <h4 class="modal-title m-auto bg-theme">Appointment</h4>
+                </div>
+                <form action="/Home/EnquiryMail" class="quick-contact-form mb-0" method="post"><input name="__RequestVerificationToken" type="hidden" value="D9yI628gFgATAcBWmEsCV6g51ouOTjM9fC90lRw24FdK7_W2bNo8GrktX4wmbOfh9UO0mOE5GpyxSvO44mVhM3qHPiZf-3CCERsmrsIMOlk1" />
+                    <div class="modal-body">
+
+
+
+                        <div class="mx-auto mb-2">
+                            <input class="sm-form-control border-form-control" data-val="true" data-val-required="Name is Required" id="appointNameId" name="enquiry.name" placeholder="Full Name" type="text" value="" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="enquiry.name" data-valmsg-replace="true"></span>
+
+                        </div>
+
+                        <div class="mx-auto mb-2">
+                            <input class="sm-form-control border-form-control" data-val="true" data-val-required="Email Address is Required" id="appointId" name="enquiry.emailid" placeholder="Email" type="text" value="" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="enquiry.emailid" data-valmsg-replace="true"></span>
+
+                        </div>
+
+                        <div class="mx-auto  mb-2">
+                            <input class="sm-form-control border-form-control" id="enquiry_contactno" name="enquiry.contactno" placeholder="Contact Number" type="text" value="" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="enquiry.contactno" data-valmsg-replace="true"></span>
+
+                        </div>
+
+                        <div class="mx-auto  mb-2">
+                            <input class="form-control email" id="enquiry_subject" name="enquiry.subject" placeholder="Purpose of meeting" type="text" value="" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="enquiry.subject" data-valmsg-replace="true"></span>
+                        </div>
+
+                        <textarea class="form-control input-block-level short-textarea mb-3" cols="30" data-val="true" data-val-required="Message is Required" id="appointMsgId" name="enquiry.message" placeholder="Message" row="5" rows="2">
+</textarea>
+                        <span class="field-validation-valid text-danger" data-valmsg-for="enquiry.message" data-valmsg-replace="true"></span>
+
+                        <div class="row m-0 justify-content-between">
+                            <button id="quick-contact-form-submit" class="btn btn-danger m-0" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn bg-theme m-0" value="submit">Send Email</button>
+                        </div>
+
+                    </div>
+                    <input data-val="true" data-val-required="This Field is Required" id="enquiry_enquiry_for_title" name="enquiry.enquiry_for_title" type="hidden" value="For Appointment" /></form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <script src="/Content/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/Content/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/Content/js/site.js" asp-append-version="true"></script>
+
+    <script src='https://meet.jit.si/external_api.js'></script> -->
+
+    
+    <script src="/VacantBerth/www.vacantberth.com/Content/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/VacantBerth/www.vacantberth.com/Content/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/VacantBerth/www.vacantberth.com/Content/js/site.js" asp-append-version="true"></script>
+
+    <script src='https://meet.jit.si/external_api.js'></script>
+    <!-- JavaScripts
+    ============================================= -->
+
+    <script src="/VacantBerth/www.vacantberth.com/Content/js/plugins.min.js"></script>
+
+    <!-- <script src="/Content/js/plugins.min.js"></script> -->
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <script src="/VacantBerth/www.vacantberth.com/Content/js/functions.js"></script>
+
+    <!-- <script src="/Content/js/functions.js"></script> -->
+
+    <!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
+    <!-- <script src="/Content/include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="/Content/include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script> -->
+    <script src="/VacantBerth/www.vacantberth.com/Content/include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="/VacantBerth/www.vacantberth.com/Content/include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- Photograph Hover Plugin
+    ============================================= -->
+    <!-- <script src="/Content/demos/writer/js/hover3d.js"></script>
+
+
+    <script src="/Content/include/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="/Content/include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="/Content/include/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="/Content/include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="/Content/include/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="/Content/include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="/Content/include/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="/Content/include/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script> -->
+
+    <script src="/VacantBerth/www.vacantberth.com/Content/demos/writer/js/hover3d.js"></script>
+
+
+    <script src="/VacantBerth/www.vacantberth.com/Content/include/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="/VacantBerth/www.vacantberth.com/Content/include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="/VacantBerth/www.vacantberth.com/Content/include/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="/VacantBerth/www.vacantberth.com/Content/include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="/VacantBerth/www.vacantberth.com/Content/include/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="/VacantBerth/www.vacantberth.com/Content/include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="/VacantBerth/www.vacantberth.com/Content/include/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="/VacantBerth/www.vacantberth.com/Content/include/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
+
+
+
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/602946f0918aa261273ec59d/1eugjq73k';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+
+
+    <script>
+        function testFunc() {
+
+            var val = '';
+
+            if (val != "") {
+
+                const domain = 'meet.jit.si';
+                const options = {
+                    roomName: Math.random().toString(24),
+                    width: 700,
+                    height: 700,
+                    configOverwrite: {
+                        startWithVideoMuted: true
+                    },
+                    parentNode: document.querySelector('#meet')
+                };
+                var link = domain + "/" + options.roomName;
+
+                //window.location.href = "ConferenceDetail?link=" + link
+                $.ajax({
+                    type: "POST",
+                    url: "Home/ConferenceDetail?link=" + link,
+                })
+                $("#confCall").modal("show");
+                this.api = new JitsiMeetExternalAPI(domain, options);
+
+            } else {
+                $("#abcdModel").modal("show");
+            }
+
+        }
+
+
+
+        function videoChat() {
+            var val = '';
+
+            if (val != "") {
+
+                const domain = 'meet.jit.si';
+                const options = {
+                    roomName: Math.random().toString(24),
+                    width: 700,
+                    height: 700,
+                    configOverwrite: {
+                        startWithVideoMuted: false
+                    },
+                    parentNode: document.querySelector('#meet')
+                };
+                var link = domain + "/" + options.roomName;
+
+                //window.location.href = "ConferenceDetail?link=" + link
+                $.ajax({
+                    type: "POST",
+                    url: "Home/ConferenceDetail?link=" + link,
+                })
+                $("#confCall").modal("show");
+                this.api = new JitsiMeetExternalAPI(domain, options);
+
+            } else {
+                $("#abcdModel").modal("show");
+            }
+
+        }
+    </script>
+
+
+    <script>
+        function onClose() {
+            var data = "true";
+            //$.ajax({
+            //    type: "POST",
+            //    url: "Home/ClearData?data=" + data,
+            //    data: data,
+            //    dataType: "string",
+            //})
+            this.api.dispose();
+        }
+        // Hover Script
+        jQuery(".img-hover-wrap").hover3d({
+            selector: ".img-hover-card",
+            shine: false,
+        });
+    </script>
+
+    <script>
+        $(document).scroll(function() {
+            var y = $(this).scrollTop();
+            if (y > 300) {
+                $('#sideIcon').removeClass('hideDiv');
+            } else {
+                $('#sideIcon').addClass('hideDiv');
+
+
+            }
+        });
+    </script>
+
+
+    <script>
+        var tpj = jQuery;
+        tpj.noConflict();
+        var $ = jQuery.noConflict();
+
+
+        tpj(document).ready(function() {
+            var apiRevoSlider = tpj('#rev_slider_k_fullwidth').show().revolution({
+                sliderType: "standard",
+                sliderLayout: "fullwidth",
+                delay: 9000,
+                navigation: {
+                    arrows: {
+                        enable: true
+                    }
+                },
+                responsiveLevels: [1240, 1024, 778, 480],
+                visibilityLevels: [1240, 1024, 778, 480],
+                gridwidth: [1240, 1024, 778, 480],
+                gridheight: [500, 768, 960, 720],
+            });
+
+            apiRevoSlider.on("revolution.slide.onloaded", function(e) {
+                setTimeout(function() {
+                    SEMICOLON.slider.sliderDimensions();
+                }, 400);
+            });
+
+            apiRevoSlider.on("revolution.slide.onchange", function(e, data) {
+                SEMICOLON.slider.revolutionSliderMenu();
+            });
+        });
+    </script>
+
+
+
+    <script>
+        //// filter accordion
+        function accordion(section, heading, list) {
+            $(section).each(function() {
+                var that = this,
+                    listHeight = $(this).find(list).height();
+
+                $(this).find(heading).click(function() {
+                    $(this).toggleClass('plus minus');
+                    $(that).find(list).slideToggle(250);
+                });
+            });
+        };
+
+        accordion('.filter-item', '.filter-item-inner-heading', '.filter-attribute-list');
+    </script>
+
+
+
+
+    <script>
+        jQuery(window).on('pluginTabsReady', function() {
+            $("#processTabs").tabs({
+                show: {
+                    effect: "fade",
+                    duration: 400
+                }
+            });
+            $(".tab-linker").click(function() {
+                $("#processTabs").tabs("option", "active", $(this).attr('rel') - 1);
+                return false;
+            });
+        });
+    </script>
+
+    <script>
+        jQuery(window).on('pluginTabsReady', function() {
+            $("#processTabs2").tabs({
+                show: {
+                    effect: "fade",
+                    duration: 400
+                }
+            });
+            $(".tab-linker").click(function() {
+                $("#processTabs2").tabs("option", "active", $(this).attr('rel2') - 1);
+                return false;
+            });
+        });
+    </script>
+
+    <script>
+        function readURLCandi(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function(e) {
+                    $('#profileImgCand').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]); // convert to base64 string
+            }
+        }
+
+        $("#profileUploadCand").change(function() {
+            readURLCandi(this);
+        });
+    </script>
+
+    <script>
+        function readURLComp(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function(e) {
+                    $('#profileImgComp').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]); // convert to base64 string
+            }
+        }
+
+        $("#profileUploadComp").change(function() {
+            readURLComp(this);
+        });
+    </script>
+
+    <script>
+        function readURLUniv(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function(e) {
+                    $('#profileImgUniv').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]); // convert to base64 string
+            }
+        }
+
+        $("#profileUploadUniv").change(function() {
+            readURLUniv(this);
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function() {
+            $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("#renderDiv *").filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+
+
+
+
+
+
+</body>
+
+
+</html>

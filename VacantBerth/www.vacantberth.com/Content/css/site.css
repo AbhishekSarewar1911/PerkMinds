@@ -1,0 +1,526 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+body {
+    list-style-type: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.orange-color {
+    background-color: #FFC300;
+    color: white;
+}
+
+.bg-footer {
+    background-color: #243257;
+    color: white;
+}
+
+.green-color {
+    background-color: #2BE15F;
+    color: white;
+}
+
+.greentrans-color {
+    background-color: #80e5ff; // color: black;
+}
+
+.red-color {
+    background-color: red;
+    color: white;
+}
+
+.blue-color {
+    background-color: #20a8d8;
+    color: white;
+}
+
+.darkblue-color {
+    background-color: #243257;
+    color: white;
+}
+
+.gray-color {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.darkgray-color {
+    background-color: gray;
+    color: white;
+}
+
+.yellow-color {
+    background-color: #ffff00;
+    color: black;
+}
+
+.dimgray-color {
+    background-color: dimgray;
+    color: white;
+}
+
+.text-red {
+    color: red !important;
+}
+
+.text-green {
+    color: green;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.text-yellow {
+    color: yellow;
+}
+
+.text-blue {
+    color: rgb(43, 146, 187);
+}
+
+.text-black {
+    color: black;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.text-white {
+    color: white;
+}
+
+.light-gray {
+    background-color: lightgray;
+}
+
+.mtransparent {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.bg-theme {
+    background-color: #ACDF87 !important;
+    color: white !important;
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    color: white;
+}
+
+.centered h3 {
+    color: white;
+}
+
+.carousel-indicators {
+    z-index: 1 !important;
+}
+
+.row {
+    margin: 0;
+}
+
+.hideDiv {
+    display: none;
+}
+
+.showDiv {
+    display: block;
+}
+
+.carousel-inner {
+    max-height: 200px;
+    /*margin-top:5px;*/
+}
+
+.retina-logo img {
+    height: 45px !important;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1050;
+    min-height: 30px;
+    max-height: 40px;
+    height: auto;
+    padding: 8px 5px;
+    display: table;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-width: 100vw;
+}
+
+.fixed-footer {
+    position: fixed;
+    text-align: center;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    z-index: 1050;
+    height: auto;
+    max-height: 78px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-width: 100vw;
+}
+
+.main-menu {
+    top: 50px;
+}
+
+.top-navbar {
+    display: table-cell;
+    width: 100%;
+    margin: auto;
+    vertical-align: middle;
+}
+
+#hideShow {
+    display: none;
+}
+
+#showHide {
+    display: block;
+}
+
+/*.acitveTab {
+    color: #ACDF87;
+}
+*/
+
+/************************CUSTOM CLASS OF DEFAULT THEME******************/
+
+.menu-item .menu-link:hover {
+    background: #ACDF87 !important;
+    color: white !important;
+    /*text-shadow: none;*/
+    /*border: 1px solid #ACDF87;*/
+}
+
+.menu-item .menu-link div:hover {
+    color: white !important;
+}
+
+.menu-item .menu-link {
+    padding: 10px;
+    margin: 0px 5px;
+}
+
+.owl-stage-outer {
+    margin-bottom: 10px !important;
+}
+
+/*.bottom-nav{
+    margin-top: 50px;
+}*/
+
+.successmsg {
+    position: absolute !important;
+    right: 20px;
+    top: 120px;
+}
+
+/*#rev_slider_k_fullwidth li {
+    background-color: #000000 !important;
+}*/
+
+/* #rev_slider_k_fullwidth li img {
+       opacity: 0.5 !important;
+    }*/
+
+.slotholder {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+    .pointer {
+        cursor: pointer;
+    }
+    .carousel-inner {
+        max-height: 500px;
+        /*margin-bottom:10px;*/
+    }
+    .postcontent .owl-carousel:hover .owl-nav .owl-next {
+        right: -14px !important
+    }
+    .postcontent .owl-carousel:hover .owl-nav .owl-prev {
+        left: -14px !important
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.sub-banner {
+    width: 100%;
+    min-height: 200px;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.parent-container {
+    width: 100%;
+    background-color: whitesmoke;
+    /*    overflow-x: hidden !important;*/
+}
+
+.prod-preview iframe {
+    max-height: 150px;
+    width: auto;
+    padding-right: 30px;
+    margin: auto;
+}
+
+.prod-preview img {
+    max-height: 150px;
+    width: auto;
+    padding-right: 30px;
+    margin: auto;
+}
+
+.oc-item .entry {
+    cursor: pointer;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    /* Vertically center the text there */
+}
+
+/**************************OTHER CSS CLASSESS AND ATTRIBUTES*******************************/
+
+select,
+textarea,
+input {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+input[type=submit] {
+    cursor: pointer;
+}
+
+.sidebar {
+    float: left;
+    width: 20%;
+}
+
+.sidebar-heading {
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid #eee;
+    /*background-color: #eee;*/
+    /*font-size: 1.6em;*/
+}
+
+.filter-item {
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+
+.filter-item-inner {
+    border-bottom: 1px solid #eee;
+}
+
+.filter-item-inner-heading {
+    position: relative;
+    padding: 10px;
+    padding-right: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1em;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.filter-item-inner-heading.minus:after,
+.filter-item-inner-heading.plus:after {
+    position: absolute;
+    top: 33%;
+    right: 7.5%;
+    font-size: .6em;
+}
+
+.filter-item-inner-heading.minus:after {
+    content: "▲";
+}
+
+.filter-item-inner-heading.plus:after {
+    content: "▼";
+}
+
+.filter-attribute-list {
+    overflow: hidden;
+    padding: 0px;
+}
+
+.filter-attribute-list-inner {
+    padding: 0 10px 15px;
+}
+
+.filter-attribute-item {
+    /*padding-left: 10px;*/
+    margin-top: 5px;
+}
+
+.filter-attribute-item:first-child {
+    margin-top: 0;
+}
+
+.content {
+    float: left;
+    width: 80%;
+}
+
+.content-upper {
+    padding-left: 20px;
+}
+
+.content-heading {
+    margin-top: 0;
+}
+
+.resume-container .cke_contents {
+    height: 400px !important;
+}
+
+.cke_editable p {
+    margin: 0 !important;
+}
+
+.cke_contents p {
+    margin: 0 !important;
+}
+
+#page-title {
+    /*background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;*/
+    color: white !important;
+    background-color: #ACDF87 !important;
+}
+
+#page-title h1,
+#page-title span,
+#page-title a,
+#page-title li,
+#page-title ol {
+    color: white !important;
+}
+
+.portfolio-desc {
+    background-color: white;
+    border-top: 1px solid lightgray;
+}
+
+#keepNotes .card {
+    border: none !important;
+}
+
+#keepNotes .card-body {
+    border: 2px solid lightgray !important;
+    border-radius: 8px;
+}
+
+.infoMsg {
+    z-index: 9999;
+    margin: 10px;
+    padding: 5px;
+    width: 30%;
+}
+
+.rev_slider .alert {
+    padding: 10px !important
+}
+
+.noteSaveBtn {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.moreApply {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+}
+
+.applyJob {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+}
+
+/****************CSS FOR SEND EMAIL ON REVISION PAGE*************/
+
+/****************CSS FOR COMPANY PAGE*************/
+
+.portfolio-item .portfolio-image,
+.portfolio-item .portfolio-image>a,
+.portfolio-item .portfolio-image img {
+    max-height: 300px
+}
