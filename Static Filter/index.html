@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Job Filter menubar
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <style>
+      /* The container */
+      .container {
+        left: -32px;
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        /* margin-bottom: 5px; */
+        color: #7b7b7b;
+        /* cursor: pointer;
+        font-size: 22px; */
+        cursor: pointer;
+         font-size: 11.5px;
+         /* font-family: Verdana, sans-serif; */
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      
+      /* Hide the browser's default checkbox */
+      .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+      }
+      
+      /* Create a custom checkbox */
+      .checkmark {
+        /* position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px; */   
+        border-radius: 1px;
+        border: 2px solid rgb(220, 216, 216); 
+          position: absolute;
+          top: 3px;
+          left: 15px;
+          height: 13px;
+          width: 13px;
+        /* background-color: #eee; */
+      }
+      
+      /* On mouse-over, add a grey background color */
+      .container:hover input ~ .checkmark {
+        background-color: #ccc;
+      }
+      
+      /* When the checkbox is checked, add a blue background */
+      .container input:checked ~ .checkmark {
+        /* background-color: #2196F3; */
+        background-color: #ff265c;
+      }
+      
+      /* Create the checkmark/indicator (hidden when not checked) */
+      .checkmark:after {
+        /* content: ""; */
+        content: '';
+        position: absolute;
+        display: none;
+      }
+      
+      /* Show the checkmark when checked */
+      .container input:checked ~ .checkmark:after {
+        display: block;
+      }
+      
+      /* Style the checkmark/indicator */
+      .container .checkmark:after {
+        /* left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px; */   
+          left: 2px;
+          top: 0px;
+          width: 2px;
+          height: 5px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+    
+      </style>
+
+    </head>
+  <body>
+    <div class="filt">
+      <i class="material-icons" style="margin-left:5px;font-size:14px;color:rgb(11, 230, 160)" >filter_list</i>
+      <span class="icon-heading">Filter Jobs</span>
+    </div>
+    <nav class="sdb">
+       <!-- <div class="text">Side Menu</div>  -->
+      <ul>
+        <li class="active-a"><a href="#">Job Category
+          <select class="ui search selection dropdown" id="search-select">
+            <option value="">All Category</option>
+            <option value="AL">Alabama</option>
+            <option value="AK">Alaska</option>
+            <option value="AZ">Arizona</option>
+            <option value="AR">Arkansas</option>
+            <option value="CA">California</option>
+            <option value="OH">Ohio</option>
+            <option value="OK">Oklahoma</option>
+            <option value="OR">Oregon</option>
+            <option value="PA">Pennsylvania</option>
+            <option value="RI">Rhode Island</option>
+            <option value="SC">South Carolina</option>
+            <option value="SD">South Dakota</option>
+            <option value="TN">Tennessee</option>
+            <option value="TX">Texas</option>
+            <option value="UT">Utah</option>
+            <option value="VT">Vermont</option>
+            <option value="VA">Virginia</option>
+            <option value="WA">Washington</option>
+            <option value="WV">West Virginia</option>
+            <option value="WI">Wisconsin</option>
+            <option value="WY">Wyoming</option>
+          </a></select>
+        </li>
+
+
+        <li>
+          <a href="#" class="feat-btn">Job Type
+            <!-- <span class="fas fa-caret-down first"></span> -->
+          </a>
+          <ul>
+            <!-- <li><a href="#">Pages</a></li>
+            <li><a href="#">Elements</a></li> -->
+            <li>
+               <!-- <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+              <label for="vehicle1"> Full Time</label><br>
+              <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+              <label for="vehicle2"> Part Time</label><br>
+              <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+              <label for="vehicle3"> Remote</label><br>
+              <input type="checkbox" id="vehicle4" name="vehicle4" value="plane">
+              <label for="vehicle4"> Freelance</label> -->
+
+
+              <label class="container">Full Time
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Part Time
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Remote
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Freelance
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+
+
+            </li>
+            <!-- <li></li> -->
+          </ul>
+        </li>
+
+        <li class="active-b"><a href="#">Job Location
+           <select class="ui search selection dropdown" id="search-select">
+            <option value="">Anywhere</option>
+            <option value="AL">Alabama</option>
+            <option value="AK">Alaska</option>
+            <option value="AZ">Arizona</option>
+            <option value="AR">Arkansas</option>
+            <option value="CA">California</option>
+            <option value="OH">Ohio</option>
+            <option value="OK">Oklahoma</option>
+            <option value="OR">Oregon</option>
+            <option value="PA">Pennsylvania</option>
+            <option value="RI">Rhode Island</option>
+            <option value="SC">South Carolina</option>
+            <option value="SD">South Dakota</option>
+            <option value="TN">Tennessee</option>
+            <option value="TX">Texas</option>
+            <option value="UT">Utah</option>
+            <option value="VT">Vermont</option>
+            <option value="VA">Virginia</option>
+            <option value="WA">Washington</option>
+            <option value="WV">West Virginia</option>
+            <option value="WI">Wisconsin</option>
+            <option value="WY">Wyoming</option>
+          </a></select>
+        </li>
+
+        <li>
+          <a href="#" class="serv-btn">Experience
+            <!-- <span class="fas fa-caret-down second"></span> -->
+          </a>
+          <ul>
+            <!-- <li><a href="#">App Design</a></li>
+            <li><a href="#">Web Design</a></li> -->
+            <li> 
+              <!-- <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+              <label for="vehicle1"> 1-2 Years</label><br>
+              <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+              <label for="vehicle2"> 2-3 years</label><br>
+              <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+              <label for="vehicle3"> 3-6 Years</label><br>
+              <input type="checkbox" id="vehicle4" name="vehicle4" value="plane">
+              <label for="vehicle4"> 6-more</label>
+            </li> -->
+            
+            <label class="container"> 1-2 Years
+              <input type="checkbox" checked="checked">
+              <span class="checkmark"></span>
+            </label>
+            <label class="container"> 2-3 Years
+              <input type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+            <label class="container"> 3-6 Years
+              <input type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+            <label class="container"> 6-more
+              <input type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#" class="year-btn">Posted Within
+            <!-- <span class="fas fa-caret-down third"></span> -->
+          </a>
+          <ul>
+            <!-- <li><a href="#">App Design</a></li>
+            <li><a href="#">Web Design</a></li> -->
+            <li> 
+              <!-- <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+              <label for="vehicle1"> Any</label><br>
+              <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+              <label for="vehicle2"> Today</label><br>
+              <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+              <label for="vehicle3"> Last 2 days</label><br>
+              <input type="checkbox" id="vehicle4" name="vehicle4" value="plane">
+              <label for="vehicle4"> Last 3 days</label><br>
+              <input type="checkbox" id="vehicle5" name="vehicle5" value="jet">
+              <label for="vehicle5"> Last 5 days</label><br>
+              <input type="checkbox" id="vehicle6" name="vehicle6" value="ship">
+              <label for="vehicle6"> Last 10 days</label> -->
+              <label class="container"> Any
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"> Today
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"> Last 2 days
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"> Last 3 days
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"> Last 5 days
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"> Last 10 days
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+
+            </li>
+          </ul>
+        </li>
+       
+        <li><a href="#">Filter Jobs Price</a>
+
+          
+<div slider id="slider-distance">
+  <div>
+    <div inverse-left style="width:70%;"></div>
+    <div inverse-right style="width:70%;"></div>
+    <div range style="left:0%;right:0%;"></div>
+    <span thumb style="left:0%;"></span>
+    <span thumb style="left:100%;"></span>
+    <div class="up" style="left:0%;">
+      <span id="value">0</span>
+    </div>
+    <div class="down" style="left:100%;">
+      <span id="value">500</span>
+    </div>
+  </div>
+
+  <input type="range" value="0" max="100" min="0" step="1" oninput="
+  this.value=Math.min(this.value,this.parentNode.childNodes[5].value-1);
+  let value = (this.value/parseInt(this.max))*100
+  var children = this.parentNode.childNodes[1].childNodes;
+  children[1].style.width=value+'%';
+  children[5].style.left=value+'%';
+  children[7].style.left=value+'%';children[11].style.left=value+'%';
+  children[11].childNodes[1].innerHTML=this.value;" />
+
+  <input type="range" value="100" max="100" min="0" step="1" oninput="
+  this.value=Math.max(this.value,this.parentNode.childNodes[3].value-(-1));
+  let value = (this.value/parseInt(this.max))*100
+  var children = this.parentNode.childNodes[1].childNodes;
+  children[3].style.width=(100-value)+'%';
+  children[5].style.right=(100-value)+'%';
+  children[9].style.left=value+'%';children[13].style.left=value+'%';
+  children[13].childNodes[1].innerHTML=this.value;" />
+</div>
+
+<label class="tag">Price:</label><br>
+<label class="tag1">To:</label>
+        </li>
+        <!-- <li><a href="#">Shortcuts</a></li>
+        <li><a href="#">Feedback</a></li> -->
+      </ul>
+    </nav>
+
+
+    <div class="content">
+      <div class="header">Filter Sidebar Menu with sub-menu</div>
+      <p>HTML CSS & Javascript demo page</p>
+    </div>
+
+    <script>
+      var slider = document.getElementById("myRange");
+      var output = document.getElementById("demo");
+      // output.innerHTML = slider.value;
+      
+      // slider.oninput = function() {
+        //output.innerHTML = this.value;
+      
+      </script>
+
+    <script>
+    // $('.btn').click(function(){
+    //   $(this).toggleClass("click");
+    //   $('.sidebar').toggleClass("show");
+    // });
+      // $('.feat-btn').click(function(){
+      //   $('nav ul .feat-show').slideToggle("show");
+      //   $('nav ul .first').toggleClass("rotate");
+      // });
+      // $('.serv-btn').click(function(){
+      //   $('nav ul .serv-show').slideToggle("show1");
+      //   $('nav ul .second').toggleClass("rotate");
+      // });
+
+      //  $('.year-btn').click(function(){
+      //    $('nav ul .year-show').slideToggle("show");
+      //    $('nav ul .third').toggleClass("rotate");
+      //  });
+
+      // $('nav ul li').click(function(){
+      //   $(this).addClass("active").siblings().removeClass("active");
+      // });
+    </script>
+  </body>
+</html>
